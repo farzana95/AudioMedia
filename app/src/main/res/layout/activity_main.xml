@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#a11"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvMediaStatus"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:id="@+id/startMedia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Start" />
+
+    <Button
+        android:id="@+id/pauseMedia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Pause" />
+
+    <Button
+        android:id="@+id/stopMedia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop" />
+</LinearLayout>
